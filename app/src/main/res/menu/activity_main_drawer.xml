@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anasayfa"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ANASAYFA" />
+        <item
+            android:id="@+id/nav_markalar"
+            android:icon="@drawable/ic_menu_send"
+            android:title="MARKALAR" />
+        <item
+            android:id="@+id/nav_yiyecekler"
+            android:icon="@drawable/ic_menu_send"
+            android:title="YİYECEKLER" />
+        <item
+            android:id="@+id/nav_icecekler"
+            android:icon="@drawable/ic_menu_send"
+            android:title="İÇECEKLER" />
+        <item
+            android:id="@+id/nav_tatli"
+            android:icon="@drawable/ic_menu_send"
+            android:title="TATLI" />
+        <item
+            android:id="@+id/nav_kampanyalar"
+            android:icon="@drawable/ic_menu_send"
+            android:title="KAMPANYALAR" />
+    </group>
+
+    <item android:title="FOOTER">
+        <menu>
+            <item
+                android:id="@+id/nav_giris"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ÜYE OL - GİRİŞ YAP" />
+            <item
+                android:id="@+id/nav_nedir"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="FAZENDERO NEDİR?" />
+        </menu>
+    </item>
+
+</menu>

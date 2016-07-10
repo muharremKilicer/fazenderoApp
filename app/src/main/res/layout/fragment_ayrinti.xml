@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Urun Başlık"
+                android:id="@+id/txtUrunDetayBaslik"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:background="#008724" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ürün Fiyat"
+                android:id="@+id/txtUrunDetayFiyat"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="#004011" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/urunDetayResim"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Paket mi? Servis mi?"
+                android:padding="10dp"
+                android:id="@+id/textView7" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <RadioGroup
+                    android:id="@+id/paketServis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paket"
+                    android:id="@+id/radioButton"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Servis"
+                    android:id="@+id/radioButton2"
+                    android:checked="false" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Kaç dakikaya gelirsin?"
+                android:padding="10dp"
+                android:id="@+id/textView3" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/country_arrays"
+                android:id="@+id/spinner"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Konum"
+                android:padding="10dp"
+                android:id="@+id/textView4" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/konum_arrays"
+                android:padding="10dp"
+                android:id="@+id/spinner2" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sipariş ver"
+                android:id="@+id/btnSiparisVer"
+                android:layout_gravity="center_horizontal"
+                android:background="#8BC34A"
+                android:textSize="17dp"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

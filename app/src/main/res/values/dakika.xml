@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="country_arrays">
+        <item>5 Dakika</item>
+        <item>10 Dakika</item>
+        <item>15 Dakika</item>
+        <item>20 Dakika</item>
+        <item>25 Dakika</item>
+        <item>30 Dakika</item>
+        <item>35 Dakika</item>
+        <item>40 Dakika</item>
+    </string-array>
+
+</resources>

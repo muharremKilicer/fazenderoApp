@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mkatr.fazenderoapp.SepetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView android:id="@+id/siparislerListe"
+            android:layout_height="0dip"
+            android:layout_width="match_parent"
+            android:layout_weight="1" />
+
+        <Button android:id="@+id/btnCikis"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#8BC34A"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:text="Çıkış Yap" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sepet Durum"
+        android:id="@+id/txtSepetUrun"
+        android:layout_gravity="center|center" />
+
+</FrameLayout>

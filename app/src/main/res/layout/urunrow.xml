@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Urun Başlık"
+        android:id="@+id/txtUrunBaslik"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#008724" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ürün Fiyat"
+        android:id="@+id/txtUrunFiyat"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="#004011" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/resim"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

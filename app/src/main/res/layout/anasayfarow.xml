@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <!-- imageview imizin ismini bu şekilde değiştirdik!-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp">
+
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            app:siShape="@drawable/shape2"
+            app:siSquare="true"
+            android:id="@+id/resim"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Urun başlık"
+            android:id="@+id/txtUrunBaslik"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Urun başlık"
+            android:id="@+id/txtUrunFiyat"
+            android:layout_marginLeft="15dp"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <!--res-values-color.xml den renk ekleyebiliriz.!-->
+
+</LinearLayout>
