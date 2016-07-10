@@ -1,6 +1,6 @@
 # Fazendero.com Mobil Uygulaması
 Fazendero.com sitesinin mobil uygulmasıdır.
-Anasayfa, Markalar, Yiyecekler, İçecekler, Tatlılar, Kampanlayar, Üyelik ve Tanıtım sayfalarından olşumaktadır.
+Anasayfa, Markalar, Yiyecekler, İçecekler, Tatlılar, Kampanlayar, Üyelik ve Tanıtım sayfalarından oluşmaktadır.
 
 #####Resimler
 
